@@ -22,7 +22,7 @@ public class alertsexample {
 		driver.findElement(By.name("proceed")).click();
 		
 		Alert alt = driver.switchTo().alert();
-		
+		//testing
 		String f = alt.getText();
 		
 		if (f.trim().equals("Please enter a valid user name")) {
