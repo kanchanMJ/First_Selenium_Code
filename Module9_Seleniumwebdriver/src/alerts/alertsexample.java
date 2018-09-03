@@ -18,7 +18,7 @@ public class alertsexample {
 		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);  
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);  // for finding element... it will not w8 for invisible
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-		
+		//changing the code
 		driver.findElement(By.name("proceed")).click();
 		
 		Alert alt = driver.switchTo().alert();
