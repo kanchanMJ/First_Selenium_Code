@@ -26,4 +26,7 @@ public class LunchWebsite {                      // for every project need to im
 		driver.get("https://www.gmail.com/");
 		//driver.quit();
 	}
+	@Test
+	public void fetching_details_to_eclipse(){
+	  //Look
 }
